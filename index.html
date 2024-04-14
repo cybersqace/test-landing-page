@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="slider">
+    <div class="slides">
+      <input type="radio" name="radio-btn" id="radio1" class="radio-btn">
+      <input type="radio" name="radio-btn" id="radio2" class="radio-btn">
+      <input type="radio" name="radio-btn" id="radio3" class="radio-btn">
+      <input type="radio" name="radio-btn" id="radio4" class="radio-btn">
+      <input type="radio" name="radio-btn" id="radio5" class="radio-btn">
+      <div class="slide first">
+        <img src="./images/mainoffer.jpg" alt="изображение" class="slide-image">
+      </div>
+      <div class="slide">
+        <img src="./images/mainoffer2.jpg" alt="изображение" class="slide-image">
+      </div>
+      <div class="slide">
+        <img src="./images/mainoffer3.jpg" alt="изображение" class="slide-image">
+      </div>
+      <div class="slide">
+        <img src="./images/mainoffer4.jpg" alt="изображение" class="slide-image">
+      </div>
+      <div class="slide">
+        <img src="./images/mainoffer5.jpg" alt="изображение" class="slide-image">
+      </div>
+      <div class="navigation-auto">
+        <div class="auto-btn1"></div>
+        <div class="auto-btn2"></div>
+        <div class="auto-btn3"></div>
+        <div class="auto-btn4"></div>
+        <div class="auto-btn5"></div>
+      </div>
+    </div>
+    <div class="navigation-manual">
+      <label for="radio1" class="manual-btn"></label>
+      <label for="radio2" class="manual-btn"></label>
+      <label for="radio3" class="manual-btn"></label>
+      <label for="radio4" class="manual-btn"></label>
+      <label for="radio5" class="manual-btn"></label>
+    </div>
+  </div>
+  <!-- Новинки-->
+  <section class="novelty">
+    <div class="novelty__container">
+      <div class="novelty__top">
+        <h1 class="novelty__title">НОВИНКИ</h1>
+        <div class="novelty__nav">
+          <div class="novelty__item">Все</div>
+          <div class="novelty__item">Светодиодные светильники</div>
+          <div class="novelty__item">Светодиодные ленты</div>
+          <div class="novelty__nav-more">
+            <div class="novelty__more-btn" id="show-more-novelties">
+              <span></span><span></span><span></span>
+            </div>
+            <div class="novelty__nav-more-list" id="novelties-block">
+              <div class="novelty__item-new">Управление светом</div>
+              <div class="novelty__item-new">Алюминиевые профили</div>
+              <div class="novelty__item-new">Светодиодный декор</div>
+              <div class="novelty__item-new">Наружное освещение</div>
+              <div class="novelty__item-new">Источники питания</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <ul class="novelty__cards" id="slider-container">
+        <li class="novelty__card">
+          <img class="novelty__image" alt="" src="./images/cardimg.jpg">
+          <div class="novelty__content">
+            <div class="novelty__card-info">
+              <a class="novelty__card-subtitle">047199</a>
+              <a class="novelty__card-subtitle">Светодиодная лента</a>
+              <a class="novelty__card-subtitle">870,78 ₽/м</a>
+            </div>
+            <div class="novelty__card-block">
+              <button class="novelty__buy-button"></button>
+            </div>
+          </div>
+        </li>
+        <li class="novelty__card">
+          <img class="novelty__image" alt="" src="./images/cardimg2.jpg">
+          <div class="novelty__content">
+            <div class="novelty__card-info">
+              <a class="novelty__card-subtitle">039768</a>
+              <a class="novelty__card-subtitle">Коннектор угловой</a>
+              <a class="novelty__card-subtitle">1147,78 ₽/шт</a>
+            </div>
+            <div class="novelty__card-block">
+              <button class="novelty__buy-button"></button>
+            </div>
+          </div>
+        </li>
+        <li class="novelty__card">
+          <img class="novelty__image" alt="" src="./images/cardimg4.jpg">
+          <div class="novelty__content">
+            <div class="novelty__card-info">
+              <a class="novelty__card-subtitle">045321</a>
+              <a class="novelty__card-subtitle">Светильник SP-CONGO</a>
+              <a class="novelty__card-subtitle">24 482,03 ₽/шт</a>
+            </div>
+            <div class="novelty__card-block-color">
+              <div class="novelty__color-item"></div>
+              <button class="novelty__buy-button"></button>
+            </div>
+          </div>
+        </li>
+        <li class="novelty__card">
+          <img class="novelty__image" alt="" src="./images/cardimg3.jpg">
+          <div class="novelty__content">
+            <div class="novelty__card-info">
+              <a class="novelty__card-subtitle">045321</a>
+              <a class="novelty__card-subtitle">Грейзер THOR-TOP-B70-</a>
+              <a class="novelty__card-subtitle">2713,84 ₽/м</a>
+            </div>
+            <div class="novelty__card-block-color">
+              <div class="novelty__color-item"></div>
+              <button class="novelty__buy-button"></button>
+            </div>
+          </div>
+        </li>
+        <li class="novelty__card">
+          <img class="novelty__image" alt="" src="./images/cardimg3.jpg">
+          <div class="novelty__content">
+            <div class="novelty__card-info">
+              <a class="novelty__card-subtitle">045321</a>
+              <a class="novelty__card-subtitle">Грейзер THOR-TOP-B70-</a>
+              <a class="novelty__card-subtitle">2713,84 ₽/м</a>
+            </div>
+            <div class="novelty__card-block-color">
+              <div class="novelty__color-item"></div>
+              <button class="novelty__buy-button"></button>
+            </div>
+          </div>
+        </li>
+        <li class="novelty__card">
+          <img class="novelty__image" alt="" src="./images/cardimg3.jpg">
+          <div class="novelty__content">
+            <div class="novelty__card-info">
+              <a class="novelty__card-subtitle">045321</a>
+              <a class="novelty__card-subtitle">Грейзер THOR-TOP-B70-</a>
+              <a class="novelty__card-subtitle">2713,84 ₽/м</a>
+            </div>
+            <div class="novelty__card-block-color">
+              <div class="novelty__color-item"></div>
+              <button class="novelty__buy-button"></button>
+            </div>
+          </div>
+        </li>
+        <li class="novelty__card">
+          <img class="novelty__image" alt="" src="./images/cardimg3.jpg">
+          <div class="novelty__content">
+            <div class="novelty__card-info">
+              <a class="novelty__card-subtitle">045321</a>
+              <a class="novelty__card-subtitle">Грейзер THOR-TOP-B70-</a>
+              <a class="novelty__card-subtitle">2713,84 ₽/м</a>
+            </div>
+            <div class="novelty__card-block-color">
+              <div class="novelty__color-item"></div>
+              <button class="novelty__buy-button"></button>
+            </div>
+          </div>
+        </li>
+        <div onclick="prev()" class="control-prev-btn"></div>
+        <div onclick="next()" class="control-next-btn"></div>
+    </ul>
+    </div>
+  </section>
+   <!-- Категории-->
+  <section class="category">
+    <div class="category__top">
+      <h1 class="category__title">КАТЕГОРИИ</h1>
+      <div class="novelty__nav">
+        <div class="novelty__more-btn" id="show-more-category">
+          <span></span><span></span><span></span>
+        </div>
+      </div>
+    </div>
+      <div class="category__cards">
+        <div class="category__card">
+          <a href="#" class="category__link">
+            <img src="./images/catimg.jpg" class="category__image" title="Светодиодные ленты" alt="изображение">
+          </a>
+          <div class="category__caption">
+            <a href="#" class="category__caption">Светодиодные ленты<span class="category__subtitle">2220 товаров</span></a>
+          </div>
+        </div>
+        <div class="category__card">
+          <a href="#" class="category__link">
+            <img src="./images/catimg2.jpg" class="category__image" title="Источники питания" alt="изображение">
+          </a>
+          <div class="category__caption">
+            <a href="#" class="category__caption">Источники питания<span class="category__subtitle">1096 товаров</span></a>
+          </div>
+        </div>
+        <div class="category__card">
+          <a href="#" class="category__link">
+            <img src="./images/catimg3.jpg" class="category__image" title="Управление светом" alt="изображение">
+          </a>
+          <div class="category__caption">
+            <a href="#" class="category__caption">Управление светом<span class="category__subtitle">902 товара</span></a>
+          </div>
+        </div>
+      </div>
+      <div class="category__hidden-block" id="hidden-block">
+          <div class="category__card">
+            <a href="#" class="category__link">
+              <img src="./images/catimg4.jpg" class="category__image" title="Алюминиевые профили" alt="изображение">
+            </a>
+            <div class="category__caption">
+              <a href="#" class="category__caption">Алюминиевые профили<span class="category__subtitle">2803 товара</span></a>
+            </div>
+          </div>
+          <div class="category__card">
+            <a href="#" class="category__link">
+              <img src="./images/catimg5.jpg" class="category__image" title="Светодиодные светильники" alt="изображение">
+            </a>
+          <div class="category__caption">
+            <a href="#" class="category__caption"><p class="category__text">Светодиодные светильники</p><span class="category__subtitle">3782 товара</span></a>
+          </div>
+          </div>
+          <div class="category__card">
+            <a href="#" class="category__link">
+              <img src="./images/catimg6.jpg" class="category__image" title="Наружное освещение" alt="изображение">
+            </a>
+            <div class="category__caption">
+            <a href="#" class="category__caption">Наружное освещение<span class="category__subtitle">336 товаров</span></a>
+            </div>
+          </div>
+      </div>
+  </section>
+  <script>
+    let counter = 1;
+    const slider = document.getElementById('slider-container');
+    let isDown = false;
+    let startX, scrollLeft;
+    const showMoreNovelties = document.getElementById('show-more-novelties');
+    const noveltiesBlock = document.getElementById('novelties-block');
+    const showMoreCategory = document.getElementById('show-more-category');
+    const categoryBlock = document.getElementById('hidden-block');
+
+    slider.addEventListener('mousedown', (e) => {
+      isDown = true;
+      slider.classList.add('active');
+      startX = e.pageX - slider.offsetLeft;
+    });
+
+    slider.addEventListener('mouseleave', () => {
+      isDown = false;
+      slider.classList.remove('active');
+    })
+
+    slider.addEventListener('mouseup', (e) => {
+      isDown = false;
+      slider.classList.remove('active');
+    })
+
+    slider.addEventListener('mousemove', (e) => {
+      if(!isDown) return;
+      e.preventDefault();
+      const x = e.pageX - slider.offsetLeft;
+      const walk = (x - startX) * 1;
+      slider.scrollLeft = screenLeft - walk;
+    })
+
+    setInterval(function() {
+      document.getElementById('radio' + counter).checked = true;
+      counter++;
+      if (counter > 5) {
+        counter = 1;
+      }
+    }, 8000)
+
+    function prev() {
+		  document.getElementById('slider-container').scrollLeft -= 270;
+    }
+    function next() {
+		  document.getElementById('slider-container').scrollLeft += 270;
+    }
+   
+    showMoreNovelties.addEventListener('click', () => {
+    if (noveltiesBlock.classList.contains('novelty__nav-more-list')) {
+      noveltiesBlock.classList.replace('novelty__nav-more-list','novelty__nav-more-list_active');
+    } else {
+      noveltiesBlock.classList.replace('novelty__nav-more-list_active','novelty__nav-more-list');
+    }
+  })
+
+    showMoreCategory.addEventListener('click', () => {
+    if (categoryBlock.classList.contains('category__hidden-block')) {
+      categoryBlock.classList.replace('category__hidden-block','category__hidden-block_visible');
+    } else {
+      categoryBlock.classList.replace('category__hidden-block_visible','category__hidden-block');
+    }
+  })
+  </script>
+</body>
+</html>
